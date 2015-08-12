@@ -1,0 +1,6 @@
+CREATE TABLE request_log (
+  id INT NOT NULL AUTO_INCREMENT,
+  param VARCHAR(20) NOT NULL,
+  response_code INT NOT NULL,
+  PRIMARY KEY(id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
