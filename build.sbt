@@ -16,7 +16,9 @@ libraryDependencies ++= {
     "com.typesafe.akka" %% "akka-testkit" % akkaVersion % "test",
     "com.typesafe" % "config" % "1.3.0",
     "mysql" % "mysql-connector-java" % "5.1.36",
-    "org.scalaj" %% "scalaj-http" % "1.1.4"
+    "org.scalaj" %% "scalaj-http" % "1.1.4",
+    "org.scalikejdbc" %% "scalikejdbc" % "2.2.7",
+    "org.scalikejdbc" %% "scalikejdbc-config" % "2.2.7"
   )
 }
 
